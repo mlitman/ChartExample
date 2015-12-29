@@ -15,6 +15,7 @@
 		B87F50C11C29999A00156B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87F50BF1C29999A00156B36 /* LaunchScreen.storyboard */; };
 		B87F50CC1C29999B00156B36 /* SwiftChartsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50CB1C29999B00156B36 /* SwiftChartsExampleTests.swift */; };
 		B87F50D71C29999B00156B36 /* SwiftChartsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50D61C29999B00156B36 /* SwiftChartsExampleUITests.swift */; };
+		B87F50E71C32D18300156B36 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50E61C32D18300156B36 /* CalendarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B87F50D21C29999B00156B36 /* SwiftChartsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChartsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87F50D61C29999B00156B36 /* SwiftChartsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsExampleUITests.swift; sourceTree = "<group>"; };
 		B87F50D81C29999B00156B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87F50E61C32D18300156B36 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		E26B2F34E729474FDA23B1ED /* Pods-SwiftChartsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChartsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChartsExample/Pods-SwiftChartsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		F77322280860DA223B09431F /* Pods_SwiftChartsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftChartsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				B87F50BD1C29999A00156B36 /* Assets.xcassets */,
 				B87F50BF1C29999A00156B36 /* LaunchScreen.storyboard */,
 				B87F50C21C29999A00156B36 /* Info.plist */,
+				B87F50E61C32D18300156B36 /* CalendarVC.swift */,
 			);
 			path = SwiftChartsExample;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			files = (
 				B87F50B91C29999A00156B36 /* ViewController.swift in Sources */,
 				B87F50B71C29999A00156B36 /* AppDelegate.swift in Sources */,
+				B87F50E71C32D18300156B36 /* CalendarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

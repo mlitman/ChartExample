@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'SwiftChartsExample' do
 pod 'SwiftCharts'
+pod "CalendarView"
 end
 
 target 'SwiftChartsExampleTests' do
